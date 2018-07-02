@@ -1,13 +1,13 @@
 {
-    "name": "OpenVPN",
-    "version": "0.2.2",
+    "name": "OpenVPN Client",
+    "version": "0.0.1",
     "slug": "openvpn",
-    "description": "OpenVPN Bridging",
-    "url": "https://github.com/greylurk/hassio-addon-experiments",
+    "description": "OpenVPN Client",
+    "url": "https://github.com/dcsg/hassio-custom-addons",
     "startup": "application",
     "boot": "auto",
     "options": {
-        "ovpn_file": ""
+        "ovpn_file": "homeassistant.opvn"
     },
     "schema": {
         "ovpn_file": "str"

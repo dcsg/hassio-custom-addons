@@ -15,5 +15,6 @@
     "map": [ "config" ],
     "host_network": true,
     "devices": [ "/dev/net/tun:/dev/net/tun:rw" ],
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "privileged": [ "NET_ADMIN" ]
 }
